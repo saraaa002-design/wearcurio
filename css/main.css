@@ -920,13 +920,13 @@ section{
 
 .related{
 
-    margin-top:3rem;
-
     display:grid;
 
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(3,minmax(0,1fr));
 
     gap:2rem;
+
+    align-items:start;
 
 }
 
@@ -1147,19 +1147,17 @@ button:focus-visible{
     display:flex;
     flex-direction:column;
 
+    width:100%;
+
     background:#FCFBF8;
-
     border:1px solid var(--border);
-
     border-radius:16px;
 
     overflow:hidden;
 
     transition:
         transform .45s ease,
-        box-shadow .45s ease,
-        border-color .45s ease;
-
+        box-shadow .45s ease;
 }
 
 .related-card:hover{
@@ -1378,38 +1376,27 @@ DOCUMENTARY PHOTOS
     .hero-specimen-image{
         width:min(90vw,420px);
     }
+   }
 
 /* ==========================================================
 PHOTO STORY
 ========================================================== */
 
 .photo-story{
-
-    width:min(100%,1200px);
-
-    margin:3rem auto;
-
-    padding:0 2rem;
-
-}
-   .photo-block{
-
     width:100%;
+    margin:3rem 0;
+    padding:0;
+}
 
-    margin:0 auto;
-
+.photo-block{
+    width:100%;
+    margin:0 0 3rem;
 }
 
 .photo-block img{
-
     width:100%;
-
-    height:auto;
-
     display:block;
-
-    object-fit:cover;
-
+    height:auto;
 }
 
 .photo-caption{
