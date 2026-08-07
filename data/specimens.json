@@ -30,7 +30,11 @@
 
     "description": "Salt-cured mullet roe, prepared for centuries along Mediterranean coasts. Its rich flavour, amber colour and unmistakable shape have made it one of Sardinia's most iconic culinary traditions.",
 
-    "curiosity": "Although often mistaken for cheese, bottarga is made from mullet roe that is salted, pressed and naturally dried.",
+  "facts": [
+  "Prepared from mullet roe.",
+  "Naturally cured with sea salt.",
+  "One of Sardinia's best-known culinary traditions."
+]
 
     "image": {
       "main": "assets/specimens/bottarga.png",
