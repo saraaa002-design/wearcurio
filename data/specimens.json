@@ -1,1 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Curio — Specimen</title>
+
+    <meta name="description"
+          content="Curio Archive">
+
+    <link rel="stylesheet"
+          href="css/main.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="container">
+
+        <a href="index.html"
+           class="logo">
+
+            CURIO
+
+        </a>
+
+    </div>
+
+</header>
+
+
+<main id="specimen-page">
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="container">
+
+            <div class="specimen-label">
+
+                SPECIMEN
+
+            </div>
+
+            <h1 id="specimen-number">
+
+                001
+
+            </h1>
+
+            <h2 id="specimen-name">
+
+                Loading...
+
+            </h2>
+
+        </div>
+
+    </section>
+
+
+    <!-- Illustration -->
+
+    <section>
+
+        <div class="container">
+
+            <div class="image-frame">
+
+                <img
+
+                    id="specimen-image"
+
+                    src=""
+
+                    alt="">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Description -->
+
+    <section>
+
+        <div class="container reading-block">
+
+            <h3>
+
+                What is this?
+
+            </h3>
+
+            <p id="specimen-description">
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Origin -->
+
+    <section>
+
+        <div class="container info-grid">
+
+            <div class="info-block">
+
+                <h3>
+
+                    Origin
+
+                </h3>
+
+                <p id="specimen-origin">
+
+                </p>
+
+            </div>
+
+            <div class="info-block">
+
+                <h3>
+
+                    Category
+
+                </h3>
+
+                <p id="specimen-category">
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Curiosities -->
+
+    <section>
+
+        <div class="container">
+
+            <div class="divider"></div>
+
+            <div class="reading-block">
+
+                <h3>
+
+                    Did you know?
+
+                </h3>
+
+                <p id="specimen-curiosity">
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Related -->
+
+    <section>
+
+        <div class="container">
+
+            <h3>
+
+                Related Specimens
+
+            </h3>
+
+            <div class="related"
+                 id="related">
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="container">
+
+        © Curio
+
+    </div>
+
+</footer>
+
+
+<script src="js/specimen.js"></script>
+
+</body>
+
+</html>
