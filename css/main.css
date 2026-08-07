@@ -1136,13 +1136,23 @@ button:focus-visible{
 }
 
 .related-image{
+
     width:100%;
-    aspect-ratio:1/1;
+
+    height:230px;
+
     object-fit:contain;
-    padding:1rem;
+
+    padding:1.3rem;
+
+    background:#F7F4ED;
+
     border-bottom:1px solid var(--border);
+
     margin-bottom:.5rem;
+
     transition:transform .45s ease;
+
 }
 
 .related-card:hover .related-image{
