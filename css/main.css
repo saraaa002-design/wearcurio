@@ -919,17 +919,11 @@ section{
 ========================================================== */
 
 .related{
-
     display:grid;
-
     grid-template-columns:repeat(3,minmax(0,1fr));
-
     gap:2rem;
-
     align-items:start;
-
 }
-
 
 /* ==========================================================
    DIVIDERS
@@ -1169,18 +1163,12 @@ button:focus-visible{
 }
 
 .related-image{
-
     width:100%;
-    aspect-ratio:1;
-
+    height:320px;
     object-fit:contain;
-
     padding:2rem;
-
     background:#F7F4ED;
-
     border-bottom:1px solid var(--border);
-
 }
 
 .related-card span{
@@ -1311,19 +1299,14 @@ DOCUMENTARY PHOTOS
 ========================================== */
 
 .photo-block{
-
-    margin-bottom:3rem;
-
+    width:100%;
+    margin:0 0 3rem;
 }
 
 .photo-block img{
-
-    width:100%;
-
-    border-radius:2px;
-
     display:block;
-
+    width:100%;
+    height:auto;
 }
 
 .photo-caption{
@@ -1382,22 +1365,6 @@ DOCUMENTARY PHOTOS
 PHOTO STORY
 ========================================================== */
 
-.photo-story{
-    width:100%;
-    margin:3rem 0;
-    padding:0;
-}
-
-.photo-block{
-    width:100%;
-    margin:0 0 3rem;
-}
-
-.photo-block img{
-    width:100%;
-    display:block;
-    height:auto;
-}
 
 .photo-caption{
 
