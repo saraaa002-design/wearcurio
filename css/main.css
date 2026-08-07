@@ -1276,10 +1276,8 @@ button:focus-visible{
 ====================================================== */
 
 .specimen-hero{
-
-    padding-top:7rem;
-    padding-bottom:3rem;
-
+    padding-top:5rem;
+    padding-bottom:1rem;
 }
 
 .hero-layout{
@@ -1312,13 +1310,9 @@ button:focus-visible{
 }
 
 .hero-copy .hero-description{
-
     max-width:620px;
-
-    margin-bottom:3rem;
-
+    margin-bottom:1.5rem;
 }
-
 .hero-illustration{
 
     width:100%;
