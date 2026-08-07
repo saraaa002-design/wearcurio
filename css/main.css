@@ -1312,14 +1312,6 @@ button:focus-visible{
 DOCUMENTARY PHOTOS
 ========================================== */
 
-.photo-story{
-
-    margin:4rem auto;
-
-    max-width:980px;
-
-}
-
 .photo-block{
 
     margin-bottom:3rem;
@@ -1389,17 +1381,76 @@ DOCUMENTARY PHOTOS
         margin-top:0;
     }
 
-    .photo-story{
-        margin:3rem auto;
-    }
+/* ==========================================================
+PHOTO STORY
+========================================================== */
 
-    .photo-block{
-        margin-bottom:2.5rem;
-    }
+.photo-story{
 
-    .photo-caption{
-        padding:0 1rem;
-    }
+    width:min(100%, 760px);
+
+    margin:4rem auto 0;
+
+}
+
+.photo-item{
+
+    margin-bottom:4rem;
+
+}
+
+.photo-item:last-child{
+
+    margin-bottom:0;
+
+}
+
+.photo-item img{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:2px;
+
+}
+
+.photo-item h3{
+
+    margin:1.4rem 0 .8rem;
+
+    font-size:1.45rem;
+
+}
+
+.photo-item p{
+
+    max-width:640px;
+   /* ==========================================================
+FACTS + INFO
+========================================================== */
+
+.facts-layout{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:6rem;
+
+    align-items:start;
+
+}
+
+.info-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:2.5rem;
+
+}
 
 }
 @media (max-width:700px){
@@ -1489,11 +1540,6 @@ DOCUMENTARY PHOTOS
 
     /* PHOTOS */
 
-    .photo-story{
-        width:min(92%,680px);
-        margin:3rem auto;
-    }
-
     .photo-block{
         margin-bottom:3rem;
     }
@@ -1543,6 +1589,65 @@ DOCUMENTARY PHOTOS
 
     .related{
         grid-template-columns:1fr;
+    }
+
+}
+/* ==========================================================
+MOBILE
+========================================================== */
+
+@media (max-width: 768px){
+
+    .intro-grid{
+
+        grid-template-columns:1fr;
+
+        gap:2rem;
+
+    }
+
+    .facts-layout{
+
+        grid-template-columns:1fr;
+
+        gap:3rem;
+
+    }
+
+    .info-grid{
+
+        grid-template-columns:1fr;
+
+        gap:2rem;
+
+    }
+
+    .continue-layout{
+
+        grid-template-columns:1fr;
+
+        gap:2.5rem;
+
+    }
+
+    .photo-story{
+
+        width:100%;
+
+        margin:2.5rem auto 0;
+
+    }
+
+    .photo-item{
+
+        margin-bottom:3rem;
+
+    }
+
+    .photo-item h3{
+
+        font-size:1.9rem;
+
     }
 
 }
