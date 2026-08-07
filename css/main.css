@@ -1473,3 +1473,117 @@ DOCUMENTARY PHOTOS
     }
 
 }
+/* ==========================================================
+   CURIO SPECIMEN RESPONSIVE 2.0
+========================================================== */
+
+@media (max-width: 900px){
+
+    /* HERO */
+
+    .specimen-hero{
+        padding-top:6rem;
+        padding-bottom:2rem;
+    }
+
+    .hero-layout{
+        display:flex;
+        flex-direction:column;
+        gap:2rem;
+        align-items:center;
+    }
+
+    .hero-copy{
+        max-width:100%;
+    }
+
+    .hero-description{
+        max-width:100%;
+    }
+
+    .hero-specimen-image{
+        width:min(88vw,420px);
+    }
+
+    /* INTRO */
+
+    .intro-grid{
+        grid-template-columns:1fr;
+        gap:1.5rem;
+    }
+
+    .section-number{
+        margin-bottom:.5rem;
+    }
+
+    /* INFORMATION */
+
+    .info-grid{
+        grid-template-columns:1fr;
+        gap:2rem;
+        margin-top:2rem;
+    }
+
+    .info-block{
+        padding-top:1.5rem;
+    }
+
+    /* PHOTOS */
+
+    .photo-story{
+        width:min(92%,680px);
+        margin:3rem auto;
+    }
+
+    .photo-block{
+        margin-bottom:3rem;
+    }
+
+    .photo-block img{
+        width:100%;
+        display:block;
+    }
+
+    .photo-caption{
+        padding-top:1rem;
+        text-align:left;
+    }
+
+    .photo-caption h3{
+        font-size:1.3rem;
+        margin-bottom:.5rem;
+    }
+
+    /* FACTS */
+
+    .facts{
+        display:flex;
+        flex-direction:column;
+        gap:2rem;
+        margin-top:2rem;
+    }
+
+    .fact{
+        display:block;
+    }
+
+    .fact span{
+        display:block;
+        margin-bottom:.5rem;
+        font-weight:700;
+        font-size:1.1rem;
+    }
+
+    /* DETAILS */
+
+    .info-grid .info-block h3{
+        letter-spacing:.18rem;
+    }
+
+    /* RELATED */
+
+    .related{
+        grid-template-columns:1fr;
+    }
+
+}
