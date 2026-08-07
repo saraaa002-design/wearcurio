@@ -255,9 +255,13 @@ strong{
 
 .container{
 
-    width:min(92%, var(--container));
+    width:min(88%, var(--container));
 
-    margin-inline:auto;
+    max-width:1200px;
+
+    margin-left:auto;
+
+    margin-right:auto;
 
 }
 
