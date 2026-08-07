@@ -30,12 +30,10 @@
       "subtitle": "Salt-cured grey mullet roe."
     },
 
-    "images": {
-      "illustration": "assets/illustrations/bottarga.png",
-
-      "thumbnail": "assets/illustrations/thumbs/bottarga.png",
-
-      "photos": [
+ "images": {
+  "illustration": "assets/illustrations/bottarga.png",
+  "thumbnail": "assets/illustrations/bottarga.png",
+  "photos": [
         "assets/photos/cabras-lagoon.jpg",
         "assets/photos/bottarga-preparation.jpg",
         "assets/photos/bottarga-detail.jpg"
