@@ -579,13 +579,11 @@ section{
 
     display:grid;
 
-    grid-template-columns:160px 1fr;
+    grid-template-columns:90px 1fr;
 
-    gap:2.5rem;
+    gap:2rem;
 
     align-items:start;
-
-    margin-top:0;
 
 }
 
@@ -926,20 +924,7 @@ section{
     justify-content:center;
 
     gap:2rem;
-
-}
-
-    display:block;
-
-    margin-bottom:1rem;
-
-    font-size:.78rem;
-
-    letter-spacing:.25rem;
-
-    color:var(--muted);
-
-}
+   }
 
 
 /* ==========================================================
