@@ -1155,3 +1155,99 @@ button:focus-visible{
 .related-link:hover{
     opacity:.7;
 }
+/* ==========================================================
+   RELATED CARDS 2.0
+========================================================== */
+
+.related-card{
+
+    display:flex;
+    flex-direction:column;
+
+    background:#FCFBF8;
+
+    border:1px solid var(--border);
+
+    border-radius:16px;
+
+    overflow:hidden;
+
+    transition:
+        transform .45s ease,
+        box-shadow .45s ease,
+        border-color .45s ease;
+
+}
+
+.related-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.06);
+
+}
+
+.related-image{
+
+    width:100%;
+    aspect-ratio:1;
+
+    object-fit:contain;
+
+    padding:2rem;
+
+    background:#F7F4ED;
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.related-card span{
+
+    margin:1.5rem 1.5rem .5rem;
+
+    font-size:.78rem;
+
+    letter-spacing:.25rem;
+
+    text-transform:uppercase;
+
+    color:var(--muted);
+
+}
+
+.related-card h4{
+
+    margin:0 1.5rem .75rem;
+
+}
+
+.related-card p{
+
+    margin:0 1.5rem;
+
+    flex:1;
+
+}
+
+.related-link{
+
+    margin:2rem 1.5rem 1.5rem;
+
+    font-size:.82rem;
+
+    letter-spacing:.18rem;
+
+    text-transform:uppercase;
+
+    color:var(--accent);
+
+    transition:opacity .3s ease;
+
+}
+
+.related-link:hover{
+
+    opacity:.6;
+
+}
