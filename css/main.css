@@ -1348,3 +1348,60 @@ button:focus-visible{
     transform:scale(1.03);
 
 }
+/* ==========================================
+DOCUMENTARY PHOTOS
+========================================== */
+
+.photo-story{
+
+    margin:7rem auto;
+
+    max-width:980px;
+
+}
+
+.photo-block{
+
+    margin-bottom:5rem;
+
+}
+
+.photo-block img{
+
+    width:100%;
+
+    border-radius:2px;
+
+    display:block;
+
+}
+
+.photo-caption{
+
+    max-width:720px;
+
+    margin:2rem auto 0;
+
+    text-align:center;
+
+}
+
+.photo-caption h3{
+
+    margin-bottom:.8rem;
+
+    letter-spacing:.12rem;
+
+    text-transform:uppercase;
+
+    font-size:.9rem;
+
+}
+
+.photo-caption p{
+
+    color:var(--muted);
+
+    line-height:1.8;
+
+}
