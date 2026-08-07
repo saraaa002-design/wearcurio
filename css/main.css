@@ -1,1 +1,279 @@
+/* ==========================================================
+   CURIO
+   MAIN STYLESHEET
+   Version: 0.1
+   ========================================================== */
 
+
+/* ==========================================================
+   RESET
+   ========================================================== */
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* ==========================================================
+   ROOT VARIABLES
+   ========================================================== */
+
+:root{
+
+    /* Colors */
+
+    --color-background:#F7F4ED;
+    --color-text:#111111;
+    --color-muted:#777777;
+    --color-border:#D9D4C8;
+
+    /* Typography */
+
+    --font-family:
+        Inter,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    /* Layout */
+
+    --container-width:1200px;
+
+    --space-xs:.5rem;
+    --space-sm:1rem;
+    --space-md:2rem;
+    --space-lg:4rem;
+    --space-xl:8rem;
+
+    /* Radius */
+
+    --radius:10px;
+
+    /* Animation */
+
+    --transition:.35s ease;
+
+}
+
+
+/* ==========================================================
+   HTML
+   ========================================================== */
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+/* ==========================================================
+   BODY
+   ========================================================== */
+
+body{
+
+    background:var(--color-background);
+
+    color:var(--color-text);
+
+    font-family:var(--font-family);
+
+    line-height:1.7;
+
+    text-rendering:optimizeLegibility;
+
+    -webkit-font-smoothing:antialiased;
+
+}
+
+
+/* ==========================================================
+   IMAGES
+   ========================================================== */
+
+img{
+
+    display:block;
+
+    max-width:100%;
+
+}
+
+
+/* ==========================================================
+   LINKS
+   ========================================================== */
+
+a{
+
+    color:inherit;
+
+    text-decoration:none;
+
+}
+
+
+/* ==========================================================
+   CONTAINER
+   ========================================================== */
+
+.container{
+
+    width:min(92%, var(--container-width));
+
+    margin-inline:auto;
+
+}
+
+
+/* ==========================================================
+   HEADER
+   ========================================================== */
+
+.site-header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:1000;
+
+    padding:2rem 0;
+
+    background:transparent;
+
+}
+
+
+/* ==========================================================
+   LOGO
+   ========================================================== */
+
+.logo{
+
+    font-size:.9rem;
+
+    letter-spacing:.35rem;
+
+    font-weight:600;
+
+}
+
+
+/* ==========================================================
+   HERO
+   ========================================================== */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+
+.hero-content{
+
+    max-width:700px;
+
+}
+
+
+.hero-label{
+
+    font-size:.8rem;
+
+    letter-spacing:.3rem;
+
+    color:var(--color-muted);
+
+    margin-bottom:2rem;
+
+}
+
+
+.hero-title{
+
+    font-size:clamp(4rem,10vw,8rem);
+
+    line-height:.95;
+
+    margin-bottom:2rem;
+
+    font-weight:700;
+
+}
+
+
+.hero-description{
+
+    max-width:560px;
+
+    color:var(--color-muted);
+
+    font-size:1.15rem;
+
+    margin-bottom:3rem;
+
+}
+
+
+/* ==========================================================
+   BUTTON
+   ========================================================== */
+
+.button-primary{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:1rem 2rem;
+
+    border:1px solid var(--color-text);
+
+    transition:var(--transition);
+
+}
+
+
+.button-primary:hover{
+
+    background:var(--color-text);
+
+    color:var(--color-background);
+
+    transform:translateY(-2px);
+
+}
+
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+
+.site-footer{
+
+    padding:3rem 0;
+
+    color:var(--color-muted);
+
+    font-size:.9rem;
+
+}
