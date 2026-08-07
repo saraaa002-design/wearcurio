@@ -1277,7 +1277,7 @@ button:focus-visible{
 
 .specimen-hero{
     padding-top:5rem;
-    padding-bottom:1rem;
+    padding-bottom:0rem;
 }
 
 .hero-layout{
