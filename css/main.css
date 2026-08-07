@@ -870,7 +870,7 @@ section{
 
     gap:2rem;
 
-    margin-top:-3rem;
+    margin-top:1rem;
 }
 
 .info-block{
@@ -1332,9 +1332,13 @@ DOCUMENTARY PHOTOS
 
     max-width:720px;
 
-    margin:1.2rem auto 0;
+    margin-top:1.2rem;
 
-    text-align:center;
+    margin-left:0;
+
+    margin-right:auto;
+
+    text-align:left;
 
 }
 
