@@ -892,6 +892,11 @@ section{
 }
 
 .info-block p{
+
+    color:var(--muted);
+
+}
+
 .info-note{
 
     margin-top:1rem;
@@ -903,9 +908,6 @@ section{
     color:var(--muted);
 
     max-width:34ch;
-
-}
-    color:var(--muted);
 
 }
 
