@@ -1651,3 +1651,24 @@ MOBILE
     }
 
 }
+/* ==========================================================
+PHONE FIX
+========================================================== */
+
+@media screen and (max-width:768px){
+
+    .info-grid{
+
+        grid-template-columns:1fr;
+
+        gap:2rem;
+
+    }
+
+    .info-block{
+
+        padding-top:1.5rem;
+
+    }
+
+}
