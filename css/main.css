@@ -892,7 +892,19 @@ section{
 }
 
 .info-block p{
+.info-note{
 
+    margin-top:1rem;
+
+    font-size:.95rem;
+
+    line-height:1.8;
+
+    color:var(--muted);
+
+    max-width:34ch;
+
+}
     color:var(--muted);
 
 }
