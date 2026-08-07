@@ -1096,7 +1096,34 @@ button:focus-visible{
 
     background:#B8B0A2;
 
+.related-card{
 
+    display:flex;
+    flex-direction:column;
+
+    width:100%;
+
+    background:#FCFBF8;
+
+    border:1px solid var(--border);
+
+    border-radius:16px;
+
+    overflow:hidden;
+
+    transition:
+        transform .45s ease,
+        box-shadow .45s ease;
+
+}
+
+.related-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.06);
+
+}
 .related-image{
 
     width:100%;
