@@ -455,7 +455,7 @@ section{
 
 .hero{
 
-    min-height:80svh;
+    min-height:auto;
 
     display:flex;
 
@@ -465,7 +465,7 @@ section{
 
     overflow:hidden;
 
-    padding:8rem 0 5rem;
+    padding:6rem 0 2rem;
 
 }
 
@@ -584,6 +584,8 @@ section{
     gap:3.5rem;
 
     align-items:start;
+
+    margin-top:2rem;
 
 }
 
@@ -819,13 +821,13 @@ section{
 
 .image-frame{
 
-    margin:.25rem auto 1.25rem;
-
     display:flex;
 
     justify-content:center;
 
     align-items:center;
+
+    margin:0 auto;
 
     padding:0;
 
@@ -1268,4 +1270,81 @@ button:focus-visible{
 }
 .related-header{
     margin-bottom:2.5rem;
+}
+/* ======================================================
+   SPECIMEN HERO 2.0
+====================================================== */
+
+.specimen-hero{
+
+    padding-top:7rem;
+    padding-bottom:3rem;
+
+}
+
+.hero-layout{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.hero-copy{
+
+    width:100%;
+    max-width:900px;
+
+}
+
+.hero-copy .specimen-label{
+
+    margin-bottom:1.5rem;
+
+}
+
+.hero-copy .hero-title{
+
+    margin-bottom:1.25rem;
+
+}
+
+.hero-copy .hero-description{
+
+    max-width:620px;
+
+    margin-bottom:3rem;
+
+}
+
+.hero-illustration{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.hero-specimen-image{
+
+    width:min(100%,520px);
+
+    height:auto;
+
+    display:block;
+
+    transition:transform .5s ease;
+
+}
+
+.hero-specimen-image:hover{
+
+    transform:scale(1.03);
+
 }
