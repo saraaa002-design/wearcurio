@@ -1385,13 +1385,11 @@ PHOTO STORY
 
 .photo-story{
 
-    max-width:980px;
+    width:min(100%,1200px);
 
     margin:3rem auto;
 
-    display:grid;
-
-    gap:3rem;
+    padding:0 2rem;
 
 }
    .photo-block{
