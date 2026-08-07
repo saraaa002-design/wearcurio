@@ -1,219 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
+[
+  {
+    "id": "001",
 
-<head>
+    "slug": "bottarga",
 
-    <meta charset="UTF-8">
+    "title": "SPECIMEN 001",
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    "name": "Bottarga",
 
-    <title>Curio — Specimen</title>
+    "latinName": "Mugil cephalus",
 
-    <meta name="description"
-          content="Curio Archive">
+    "category": "Culinary Heritage",
 
-    <link rel="stylesheet"
-          href="css/main.css">
+    "origin": {
+      "country": "Italy",
+      "region": "Sardinia",
+      "location": "Cabras Lagoon"
+    },
 
-</head>
+    "theme": {
+      "color": "#A96B3C",
+      "class": "theme-bottarga"
+    },
 
-<body>
+    "hero": {
+      "title": "Bottarga",
+      "subtitle": "Salt-cured mullet roe."
+    },
 
-<header class="site-header">
+    "description": "Salt-cured mullet roe, prepared for centuries along Mediterranean coasts. Its rich flavour, amber colour and unmistakable shape have made it one of Sardinia's most iconic culinary traditions.",
 
-    <div class="container">
+    "curiosity": "Although often mistaken for cheese, bottarga is made from mullet roe that is salted, pressed and naturally dried.",
 
-        <a href="index.html"
-           class="logo">
+    "image": {
+      "main": "assets/specimens/bottarga.png",
+      "thumbnail": "assets/specimens/thumbs/bottarga.webp"
+    },
 
-            CURIO
+    "qr": {
+      "url": "https://wearcurio.com/specimen/001-bottarga"
+    },
 
-        </a>
+    "metadata": {
+      "year": "2026",
+      "collection": "Mirabilia",
+      "status": "Published"
+    },
 
-    </div>
-
-</header>
-
-
-<main id="specimen-page">
-
-    <!-- HERO -->
-
-    <section class="hero">
-
-        <div class="container">
-
-            <div class="specimen-label">
-
-                SPECIMEN
-
-            </div>
-
-            <h1 id="specimen-number">
-
-                001
-
-            </h1>
-
-            <h2 id="specimen-name">
-
-                Loading...
-
-            </h2>
-
-        </div>
-
-    </section>
-
-
-    <!-- Illustration -->
-
-    <section>
-
-        <div class="container">
-
-            <div class="image-frame">
-
-                <img
-
-                    id="specimen-image"
-
-                    src=""
-
-                    alt="">
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Description -->
-
-    <section>
-
-        <div class="container reading-block">
-
-            <h3>
-
-                What is this?
-
-            </h3>
-
-            <p id="specimen-description">
-
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- Origin -->
-
-    <section>
-
-        <div class="container info-grid">
-
-            <div class="info-block">
-
-                <h3>
-
-                    Origin
-
-                </h3>
-
-                <p id="specimen-origin">
-
-                </p>
-
-            </div>
-
-            <div class="info-block">
-
-                <h3>
-
-                    Category
-
-                </h3>
-
-                <p id="specimen-category">
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Curiosities -->
-
-    <section>
-
-        <div class="container">
-
-            <div class="divider"></div>
-
-            <div class="reading-block">
-
-                <h3>
-
-                    Did you know?
-
-                </h3>
-
-                <p id="specimen-curiosity">
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Related -->
-
-    <section>
-
-        <div class="container">
-
-            <h3>
-
-                Related Specimens
-
-            </h3>
-
-            <div class="related"
-                 id="related">
-
-            </div>
-
-        </div>
-
-    </section>
-
-</main>
-
-
-<footer class="site-footer">
-
-    <div class="container">
-
-        © Curio
-
-    </div>
-
-</footer>
-
-
-<script src="js/specimen.js"></script>
-
-</body>
-
-</html>
+    "related": [
+      "002",
+      "005",
+      "010"
+    ]
+  }
+]
