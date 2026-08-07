@@ -927,38 +927,6 @@ section{
 
 }
 
-.related-card{
-
-    border:1px solid var(--border);
-
-    padding:1.6rem;
-
-    transition:
-
-        transform .45s ease,
-
-        background .45s ease,
-
-        border-color .45s ease;
-
-}
-
-.related-card:hover{
-
-    transform:translateY(-8px);
-
-    background:#ffffff;
-
-}
-
-.related-card h4{
-
-    margin-bottom:.75rem;
-
-}
-
-.related-card span{
-
     display:block;
 
     margin-bottom:1rem;
