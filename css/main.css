@@ -137,11 +137,11 @@ ol{
 
     --space-5:3rem;
 
-    --space-6:5rem;
+    --space-6:4rem;
 
-    --space-7:8rem;
+    --space-7:6rem;
 
-    --space-8:12rem;
+    --space-8:9rem;
 
     /* ------------------------------------------------------
        LAYOUT
@@ -491,7 +491,7 @@ section{
 
 .hero-title{
 
-    margin-bottom:2rem;
+    margin-bottom:1.25rem;
 
     max-width:10ch;
 
@@ -503,7 +503,7 @@ section{
 
     line-height:1.9;
 
-    margin-bottom:3.5rem;
+    margin-bottom:2.5rem;
 
 }
 
@@ -579,7 +579,7 @@ section{
 
     grid-template-columns:160px 1fr;
 
-    gap:5rem;
+    gap:3.5rem;
 
     align-items:start;
 
@@ -769,7 +769,7 @@ section{
 
     gap:1rem;
 
-    margin-bottom:3rem;
+    margin-bottom:2rem;
 
     font-size:.82rem;
 
@@ -817,7 +817,7 @@ section{
 
 .image-frame{
 
-    margin:5rem auto;
+    margin:3rem auto;
 
     display:flex;
 
@@ -825,7 +825,7 @@ section{
 
     align-items:center;
 
-    padding:3rem;
+    padding:1.5rem;
 
 }
 
@@ -860,7 +860,7 @@ section{
 
         repeat(2,minmax(0,1fr));
 
-    gap:4rem;
+    gap:2.5rem;
 
 }
 
@@ -911,7 +911,7 @@ section{
 
     border:1px solid var(--border);
 
-    padding:2rem;
+    padding:1.6rem;
 
     transition:
 
@@ -964,7 +964,7 @@ section{
 
     background:var(--border);
 
-    margin:8rem 0;
+    margin:5rem 0;
 
 }
 
