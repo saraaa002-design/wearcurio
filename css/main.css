@@ -268,7 +268,7 @@ strong{
 
 section{
 
-    padding-block:var(--space-8);
+    padding-block:7rem;
 
 }
 
@@ -613,11 +613,8 @@ section{
 
 }
 .intro-section{
-
     padding-top:0;
-
-    padding-bottom:6rem;
-
+    padding-bottom:3rem;
 }
 
 /* ==========================================================
@@ -867,13 +864,11 @@ section{
 .info-grid{
 
     display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
 
-    grid-template-columns:
+    gap:2rem;
 
-        repeat(2,minmax(0,1fr));
-
-    gap:2.5rem;
-
+    margin-top:-2rem;
 }
 
 .info-block{
@@ -977,7 +972,7 @@ section{
 
     background:var(--border);
 
-    margin:5rem 0;
+    margin:3rem 0;
 
 }
 
@@ -1354,7 +1349,7 @@ DOCUMENTARY PHOTOS
 
 .photo-story{
 
-    margin:7rem auto;
+    margin:4rem auto;
 
     max-width:980px;
 
@@ -1362,7 +1357,7 @@ DOCUMENTARY PHOTOS
 
 .photo-block{
 
-    margin-bottom:5rem;
+    margin-bottom:3rem;
 
 }
 
@@ -1380,7 +1375,7 @@ DOCUMENTARY PHOTOS
 
     max-width:720px;
 
-    margin:2rem auto 0;
+    margin:1.2rem auto 0;
 
     text-align:center;
 
