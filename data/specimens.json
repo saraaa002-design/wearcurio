@@ -1,65 +1,106 @@
 [
   {
     "id": "001",
-
-    "slug": "bottarga",
+    "slug": "001-bottarga",
 
     "title": "SPECIMEN 001",
-
     "name": "Bottarga",
-
     "latinName": "Mugil cephalus",
 
     "category": "Culinary Heritage",
 
     "origin": {
-      "country": "Italy",
+      "location": "Cabras Lagoon",
+      "municipality": "Cabras",
       "region": "Sardinia",
-      "location": "Cabras Lagoon"
+      "country": "Italy",
+      "coordinates": {
+        "latitude": 39.9300,
+        "longitude": 8.5330
+      }
     },
 
     "theme": {
-      "color": "#A96B3C",
-      "class": "theme-bottarga"
+      "class": "theme-bottarga",
+      "color": "#A96B3C"
     },
 
     "hero": {
       "title": "Bottarga",
-      "subtitle": "Salt-cured mullet roe."
+      "subtitle": "Salt-cured grey mullet roe."
     },
 
-    "description": "Salt-cured mullet roe, prepared for centuries along Mediterranean coasts. Its rich flavour, amber colour and unmistakable shape have made it one of Sardinia's most iconic culinary traditions.",
+    "images": {
+      "illustration": "assets/illustrations/bottarga.png",
 
-  "facts": [
-  "Prepared from mullet roe.",
-  "Naturally cured with sea salt.",
-  "One of Sardinia's best-known culinary traditions."
-]
+      "thumbnail": "assets/illustrations/thumbs/bottarga.png",
 
-    "image": {
-      "main": "assets/specimens/bottarga.png",
-      "thumbnail": "assets/specimens/thumbs/bottarga.webp"
+      "photos": [
+        "assets/photos/cabras-lagoon.jpg",
+        "assets/photos/bottarga-preparation.jpg",
+        "assets/photos/bottarga-detail.jpg"
+      ]
+    },
+
+    "description": {
+      "short": "Salt-cured grey mullet roe, traditionally produced in Sardinia.",
+
+      "long": "Prepared for centuries along Mediterranean coasts, bottarga is made from the roe of the grey mullet (Mugil cephalus). Carefully salted, pressed and naturally dried, it has become one of Sardinia's most distinctive culinary traditions, particularly around the Cabras Lagoon."
+    },
+
+    "museumNotes": {
+      "title": "Museum Notes",
+
+      "text": "Although today it is considered a delicacy, bottarga originated as a practical method of preserving fish roe. The traditional production process has remained remarkably consistent over generations, relying on salt, pressure, fresh air and time rather than modern industrial techniques."
+    },
+
+    "fieldObservation": {
+      "title": "Field Observation",
+
+      "text": "The Cabras Lagoon, on the western coast of Sardinia, provides one of the most renowned environments for grey mullet fishing. Local knowledge, seasonal rhythms and artisanal methods continue to shape the production of bottarga today.",
+
+      "photo": "assets/photos/cabras-lagoon.jpg"
+    },
+
+    "facts": [
+      "Prepared from the roe of grey mullet (Mugil cephalus).",
+      "Naturally cured using sea salt, pressure and air.",
+      "One of the most iconic traditional foods of Sardinia."
+    ],
+        "metadata": {
+      "year": 2026,
+      "collection": "Mirabilia",
+      "edition": "Edition 01",
+      "status": "Published",
+      "language": "en"
+    },
+
+    "purchase": {
+      "available": true,
+      "platform": "Etsy",
+      "url": "https://www.etsy.com/shop/wearcurio"
     },
 
     "qr": {
-      "url": "https://wearcurio.com/specimen/001-bottarga"
-    },
-
-    "metadata": {
-      "year": "2026",
-      "collection": "Mirabilia",
-      "status": "Published"
+      "url": "https://wearcurio.com/archive/001-bottarga"
     },
 
     "related": [
-      "002",
-      "005",
-      "010"
+      {
+        "id": "002",
+        "name": "Welwitschia",
+        "slug": "002-welwitschia"
+      },
+      {
+        "id": "003",
+        "name": "Narwhal",
+        "slug": "003-narwhal"
+      },
+      {
+        "id": "004",
+        "name": "Astrolabe",
+        "slug": "004-astrolabe"
+      }
     ]
   }
-]
-"facts": [
-    "Prepared from mullet roe.",
-    "Traditionally dried in sea breeze.",
-    "A symbol of Sardinian gastronomy."
 ]
