@@ -83,6 +83,28 @@ document.getElementById("specimen-archive-number").textContent =
 
 document.getElementById("specimen-published").textContent =
     specimen.metadata.year;
+   const fieldTitle = document.getElementById("specimen-field-title");
+if (fieldTitle) {
+    fieldTitle.textContent = specimen.fieldObservation.title;
+}
+
+const fieldText = document.getElementById("specimen-field-text");
+if (fieldText) {
+    fieldText.textContent = specimen.fieldObservation.text;
+}
+
+const photo1 = document.getElementById("specimen-photo-1");
+const photo2 = document.getElementById("specimen-photo-2");
+
+if (photo1 && specimen.images.photos[0]) {
+    photo1.src = specimen.images.photos[0];
+    photo1.alt = specimen.name;
+}
+
+if (photo2 && specimen.images.photos[1]) {
+    photo2.src = specimen.images.photos[1];
+    photo2.alt = specimen.name;
+}
 
     const image = document.getElementById("specimen-image");
 
