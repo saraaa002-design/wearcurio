@@ -100,5 +100,102 @@
         "slug": "004-astrolabe"
       }
     ]
-  }
+},
+{
+"id": "002",
+"slug": "002-welwitschia",
+    "title": "SPECIMEN 002",
+    "name": "Welwitschia",
+    "latinName": "Welwitschia mirabilis",
+
+    "category": "Botanical Wonder",
+
+    "origin": {
+        "location": "Namib Desert",
+        "municipality": "",
+        "region": "Namib",
+        "country": "Namibia & Angola",
+        "coordinates": {
+            "latitude": -23.5,
+            "longitude": 15.5
+        }
+    },
+
+    "theme": {
+        "class": "theme-welwitschia",
+        "color": "#7A8F63"
+    },
+
+    "hero": {
+        "title": "Welwitschia mirabilis",
+        "subtitle": "The ancient plant that never stops growing."
+    },
+
+    "images": {
+        "illustration": "assets/illustrations/welwitschia.png",
+        "thumbnail": "assets/illustrations/welwitschia.png",
+        "photos": [
+            "assets/photos/welwitschia-desert.jpg",
+            "assets/photos/welwitschia-leaves.jpg"
+        ]
+    },
+
+    "description": {
+        "short": "An ancient desert plant that survives where almost nothing else can.",
+        "long": "Welwitschia mirabilis is one of the world's strangest plants. Growing exclusively in the Namib Desert, it has adapted to survive where rainfall is scarce, temperatures are extreme and life is exceptionally difficult. Each individual produces only two leaves throughout its entire existence. They never stop growing, becoming long ribbons sculpted by centuries of wind and sand."
+    },
+
+    "museumNotes": {
+        "title": "Museum Notes",
+        "text": "First described in 1859 by Austrian botanist Friedrich Welwitsch, the species puzzled scientists from the very beginning. Although it resembles a giant bundle of leaves, the plant belongs to one of the oldest surviving lineages of seed plants. Instead of depending on rainfall alone, it survives thanks to deep roots, slow growth and moisture carried inland by Atlantic fog."
+    },
+
+    "fieldObservation": {
+        "title": "Living in the Namib",
+        "text": "The Namib Desert is one of the oldest deserts on Earth. Despite extreme temperatures and almost complete absence of rain, Welwitschia survives through a combination of deep roots, slow growth and moisture gathered from coastal fog.",
+        "photo": "assets/photos/welwitschia-desert.jpg"
+    },
+
+    "facts": [
+        "Some Welwitschia plants alive today began growing before Christopher Columbus reached the Americas.",
+        "Throughout its entire life, the plant produces only two leaves.",
+        "Rather than relying on rainfall alone, Welwitschia absorbs moisture from Atlantic fog."
+    ],
+
+    "metadata": {
+        "year": 2026,
+        "collection": "Mirabilia",
+        "edition": "Edition 02",
+        "status": "Published",
+        "language": "en"
+    },
+
+    "purchase": {
+        "available": true,
+        "platform": "Etsy",
+        "url": "https://www.etsy.com/shop/wearcurio"
+    },
+
+    "qr": {
+        "url": "https://wearcurio.com/archive/002-welwitschia"
+    },
+
+    "related": [
+        {
+            "id": "001",
+            "name": "Bottarga",
+            "slug": "001-bottarga"
+        },
+        {
+            "id": "003",
+            "name": "Narwhal",
+            "slug": "003-narwhal"
+        },
+        {
+            "id": "004",
+            "name": "Astrolabe",
+            "slug": "004-astrolabe"
+        }
+    ]
+}
 ]
