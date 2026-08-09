@@ -66,6 +66,23 @@ document.getElementById("specimen-description").textContent =
 
     document.getElementById("specimen-category").textContent =
         specimen.category;
+   document.getElementById("specimen-scientific-name").textContent =
+    specimen.latinName;
+
+document.getElementById("specimen-description-long").textContent =
+    specimen.description.long;
+
+document.getElementById("specimen-museum-notes").textContent =
+    specimen.museumNotes.text;
+
+document.getElementById("specimen-collection").textContent =
+    specimen.metadata.collection;
+
+document.getElementById("specimen-archive-number").textContent =
+    specimen.id;
+
+document.getElementById("specimen-published").textContent =
+    specimen.metadata.year;
 
     const image = document.getElementById("specimen-image");
 
