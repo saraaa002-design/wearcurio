@@ -128,13 +128,21 @@ function renderFacts(facts = []) {
 
     container.innerHTML = "";
 
-    facts.forEach(fact => {
+    facts.forEach((fact, index) => {
 
-        const p = document.createElement("p");
+        const item = document.createElement("div");
+        item.className = "fact";
 
-        p.textContent = "• " + fact;
+        const number = document.createElement("span");
+        number.textContent = String(index + 1).padStart(2, "0");
 
-        container.appendChild(p);
+        const text = document.createElement("p");
+        text.textContent = fact;
+
+        item.appendChild(number);
+        item.appendChild(text);
+
+        container.appendChild(item);
 
     });
 
