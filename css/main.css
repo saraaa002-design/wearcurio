@@ -1394,32 +1394,38 @@ PHONE FIX
 
 }
 /* ==========================================================
-   FACTS — OVERRIDE
+   FACTS
 ========================================================== */
 
 #specimen-curiosity.facts {
-    font-size: 1rem !important;
+    display:flex;
+    flex-direction:column;
+    gap:2.2rem;
+    margin-top:2rem;
 }
 
 #specimen-curiosity.facts .fact {
-    font-size: 1rem !important;
-    line-height: 1.5 !important;
+    display:grid;
+    grid-template-columns:40px minmax(0, 1fr);
+    column-gap:1.5rem;
+    align-items:start;
 }
 
 #specimen-curiosity.facts .fact span {
-    display: block;
-    font-size: 0.8rem !important;
-    line-height: 1.2 !important;
-    font-weight: 400 !important;
-    margin-bottom: 0.5rem;
+    display:block;
+    padding-top:.15rem;
+    font-size:.72rem;
+    line-height:1;
+    font-weight:500;
+    letter-spacing:.18rem;
+    color:var(--muted);
 }
 
 #specimen-curiosity.facts .fact p {
-    display: block;
-    max-width: 65ch;
-    margin: 0 0 2rem 0 !important;
-    font-size: 1.05rem !important;
-    line-height: 1.7 !important;
-    font-weight: 400 !important;
-    color: var(--muted) !important;
+    max-width:65ch;
+    margin:0;
+    font-size:1.08rem;
+    line-height:1.7;
+    font-weight:400;
+    color:var(--muted);
 }
