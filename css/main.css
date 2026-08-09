@@ -1394,12 +1394,32 @@ PHONE FIX
 
 }
 /* ==========================================================
-   FACTS — TEXT SIZE
+   FACTS — OVERRIDE
 ========================================================== */
 
-.facts .fact p{
-    font-size:1.05rem;
-    line-height:1.7;
-    font-weight:400;
-    color:var(--muted);
-}   
+#specimen-curiosity.facts {
+    font-size: 1rem !important;
+}
+
+#specimen-curiosity.facts .fact {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+}
+
+#specimen-curiosity.facts .fact span {
+    display: block;
+    font-size: 0.8rem !important;
+    line-height: 1.2 !important;
+    font-weight: 400 !important;
+    margin-bottom: 0.5rem;
+}
+
+#specimen-curiosity.facts .fact p {
+    display: block;
+    max-width: 65ch;
+    margin: 0 0 2rem 0 !important;
+    font-size: 1.05rem !important;
+    line-height: 1.7 !important;
+    font-weight: 400 !important;
+    color: var(--muted) !important;
+}
