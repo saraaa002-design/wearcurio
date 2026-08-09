@@ -58,8 +58,8 @@ function renderSpecimen(specimen) {
 
     document.getElementById("specimen-name").textContent = specimen.name;
 
-    document.getElementById("specimen-description").textContent =
-        specimen.description;
+document.getElementById("specimen-description").textContent =
+    specimen.description.long;
 
     document.getElementById("specimen-origin").textContent =
         `${specimen.origin.region}, ${specimen.origin.country}`;
@@ -69,7 +69,7 @@ function renderSpecimen(specimen) {
 
     const image = document.getElementById("specimen-image");
 
-    image.src = specimen.image.main;
+    image.src = specimen.images.illustration;
 
     image.alt = specimen.name;
 
